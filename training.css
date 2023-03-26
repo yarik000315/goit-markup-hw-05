@@ -1,0 +1,19 @@
+* {
+  outline: 1px solid red;
+}
+
+.list {
+  display: flex;
+  /* width: 1200px; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  /* display: block; */
+  width: calc((100%-50px) / 6);
+  /* background-color: green; */
+  margin-right: 10px;
+  height: 100px;
+}
